@@ -5,172 +5,356 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-<script src="https://kit.fontawesome.com/a57223f5df.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href = "/bootstrap/css/bootstrap.min.css" rel = "stylesheet">
+    <script src = "/scripts/jquery.min.js"></script>
+    <script src = "/bootstrap/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Iceberg&family=Inter:wght@400;500;600;700;800;900&family=Julee&family=Just+Another+Hand&family=Patrick+Hand+SC&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a57223f5df.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
-    <div class="main">
-        <div class="nav">
-                <img src="Untitled design.jpg"  class="logo" alt="">
-            <div class="hirebtn">
-                <ol class="Btn">
-                <li class="Btn__item">
-					<button class="button button--anthe"><span>HireMe</span></button>
-				</li>       
-                </ol>
+    <div class="main border border-5  ">
+            <nav class="navbar navbar-expand-lg  navbar-dark bg-dark  border border-0  border-bottom-0">
+                <div class="container-fluid">
+                    <a class="navbar-brand float-left" href="#">
+                        <img src="Untitled design.jpg" alt="" width="100" height="100">
+                      </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" style="position: relative;top: -0.4rem;">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li> 
+                      <li class="nav-item">
+                        <a class="nav-link " href="#" >Skills</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="#" >Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="#" >Contact</a>
+                      </li>
+                    </ul>
+                      <button class="btn btn"  type="submit"><span>Hire Me</span> </button>
+                       </div>
+                </div>
+              </nav>  <!-- navbar  -->
+              
+             <div class="card"  style="border: none;">
+                <div class="text-center mt-3" id="name">
+                    <span>
+                        Hi, I am
+                        <span class="nik"> <u> Nikhil Bhatia </u></span> 
+                         👋
+                    </span>                      
+                </div>
+                <div class="text-center mt-3">
+                    <span class="p-1 px-4" id="Web">Web Consultant | Certified Laravel Expert</span>                  
+                    </span>
+                    <div class="px-4 mt-1">
+                        <p class="fonts"> Yes, I’ll help your idea grow into reality with my expertise in Web development, I just love it! Love to solve problems!  </p>
+                    </div>
+           </div>
+           <div class="text-center  " >
+            <img src="portfolio Img.jpg" width="200"  id="img" class="rounded-circle">
+        </div>    
+      </div> <!-- Card section  -->
+      
+      
+        <div class="container-fluid ">
+            <div class="row " >
+            <div class="col-sm-4 mb-xl-0 mb-4 ">
+            <div class="card "  style="border: none;">
+            <div class="card-body p-3 colorbg">
+            <div class="row" >
+                <div class="col-4 text-end">
+                    <div class="icon icon-shape bg-gradient-primary shadow-primary text-center rounded-circle">
+                    <img src="icon8.png" alt="">
+                    </div>
+                    </div>
+            <div class="col-8">
+            <div class="numbers">
+            <h2 class="text-sm px-4 mb-0 text-uppercase font-weight-bolder" style="color: #f3b859">5+</h2>
+            <p class="font-weight-bolder pt-2 rowcon" >
+           Years of expertise
+            </p>
             </div>
-            <ul class="home">
-                <li class="H">
-                    Home
-                </li>
-                <li class="A">
-                   About
-                </li >
-                <li class="S">
-                    Skills
-                </li>
-                <li class="P">
-                    Portfolio
-                </li>
-                <li class="C">
-                   Contact
-                </li>
-            </ul>
-        </div>
-        <div class="mainspan">
-<Span class="txt h1">
-    Hi, I am 
-</Span>
-<span class="underlined underlined--thin sp">Nikhil Bhatia</span>
-<span class="txt emoji">👋</span>
-<span class="txt h2">
-    Web Consultant | Certified Laravel Expert
-</span>
-<span class="txt h3">
-    Yes, I’ll help your idea grow into reality with my expertise in Web development, I just love it! Love to solve problems! 
-</span>
-   <img src="portfolio Img.jpg" class="img" alt=""> 
-        </div>
-       
-        <div class="cworks">
-     <div class="box">
-         <div class="circle">
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="col-sm-4 mb-xl-0 mb-4">
+                <div class="card "  style="border: none;">
+                <div class="card-body p-3 colorbg">
+                <div class="row">
+                    <div class="col-4 text-end">
+                        <div class="icon icon-shape bg-gradient-primary shadow-primary text-center rounded-circle">
+                            <img src="ribbon.png" class="ic" alt="">
+                        </div>
+                        </div>
+                <div class="col-8">
+                <div class="numbers">
+                <h2 class="text-sm px-4 mb-0 text-uppercase font-weight-bolder" style="color: #f3b859">100+</h2>
+                <p class="font-weight-bolder pt-2  rowcon " style="margin-left:25px ;">
+               Projects
+                </p>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                <div class="col-sm-4 mb-xl-0 mb-4">
+                    <div class="card"  style="border: none;">
+                    <div class="card-body p-3 colorbg">
+                    <div class="row">
+                        <div class="col-4 text-end">
+                            <div class="icon icon-shape bg-gradient-primary shadow-primary text-center rounded-circle">
+                                <img src="happy.png"  class="ic" alt="">
+                            </div>
+                            </div>
+                    <div class="col-8">
+                    <div class="numbers">
+                    <h2 class="text-sm px-4 mb-0 text-uppercase font-weight-bolder" style="color: #f3b859">20+</h2>
+                    <p class="font-weight-bolder pt-2  rowcon">
+                   Happy Customer
+                    </p>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>          
+            </div>
+          </div> <!-- achievement section  -->
 
-         </div>
-      <img src="emblem.png" alt="" class="rib">
-            <span class="pl plus">5+</span>
-            <span class="exp" >Years of exp</span>
-     </div>
-     <div class="box a">
-        <span class="material-symbols-outlined vr md-48">
-            verified
-            </span>
-            <span class="pl p">100+</span>
-            <span class="sptxt x" >Projects</span>
-    </div>
-    <div class="box b">
-        <div class="circle c"></div>
-        <img src="happy.png" class="rib">
-        <span class="pl m">20+</span>
-        <span class="sptxt e" >Happy customer</span>
-    </div>
-        </div>
-        <div class="feature">
-       <div class="box B1"> 
-     <span class="pl work">
-        My Work
-        </span></div>
-          
-        </div>
-        <ul class="home works">
-            <li class="H hover all" >
-               All
-            </li>
-            <li class="A hover">
-              Moblie app
-            </li >
-            <li class="S hover">
-                Website development
-            </li>
-            <li class="P hover">
-                Website design
-            </li>
-        </ul>
-        <div class="banners">
-            <ul>
-                <li>
-                    <img src="banner1.jpg" alt="" class="banner b1">
-                </li>
-                <li>
-                    <img src="banner2.jpg" class="banner b2">
-                </li>
-                <li>
-                    <img src="banner 3.jpg" class="bannerw b3">
-                </li>
-                <li>
-                    <img src="banner 4.jpg" class="bannerw b4">
-                </li>
-            <li class="prof">
-                <img src="profile.jpg" alt="" class="banners lar">
-            </li>
-            </ul>
-        </div>
-        <button class="btn"> <span class="lm">Learn More</span> <span class="arrow">➲</span> </button>
-        <div class="service">
-            <img src="Services.png" alt="">
-        </div>
-       
-    </div>
-    <div class="div">
-        <span class="start">
-     <h1>Start a Project</h1>
-        </span>
-        <span class="mid">
-           <h4>Interested in working together? We should queue up a chat. I’ll buy the coffee.</h4> 
-        </span>
-        <a href="#" class="link">
-            <span class="mask">
-              <div class="link-container">
-                <span class="link-title1 title">READ MORE</span>
-                <span class="link-title2 title">READ MORE</span>
+
+                <ul class="nav justify-content-center mt-5">
+                  <li class="nav-item">
+                    <a class="nav-link active  hver" style="
+                    color:#f3b859  !important;
+                " href="#">All</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link hver" href="#">Websits Deployed</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link hver" href="#">Apps Deployed</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link hver " href="#" >Larvel</a>
+                  </li>
+                </ul> <!-- navbar2  -->
+             
+                <div class=" my-5  ml-0 mr-0  text-center card " id="work">
+                    <span class="p-2  mt-1" style="color: #f3b859 ;"> My work!</span> 
+              </div> <!-- work label  -->
+                
+            <div class="row text-center text-lg-start">
+              <div class="col-lg-6 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="banner 3.jpg" alt="">
+                </a>
               </div>
-            </span>
-            <div class="link-icon">
-              <svg class="icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-                <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
-              </svg>
-              <svg class="icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-                <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
-              </svg>
-            </div>
-          </a>
+              
+                <div class="col-lg-6 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="banner 3.jpg" alt="">
+                  </a>
+                </div>
+                <div class="col-lg-6 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="banner 3.jpg" alt="">
+                  </a>
+                </div>
+                <div class="col-lg-6 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="banner 3.jpg" alt="">
+                  </a>
+                </div>
+                </div> <!-- img section  -->
+                <div class="container pt-6">
+                  <div class="row">
+                      <div class="col-md-6">
+           </div>
+       </div>
+       <div class="body">
+      <div class="imageMap__container">
+       <img src="profile.jpg" alt="work by sweetie on dribbble">
+       <div class="markers mt-3" tabindex="0" style="    grid-column: 17/6;
+       grid-row: 8/8;">
+         <div class="marker__card mt-5">
+             <p class="marker__card__title">
+               Tools
+             </p>
+             <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat enim iusto eligendi perspiciatis officiis deleniti sapiente! .</p>
+           </div>
+       </div>
+     </div>
     </div>
-<div class="divend">
-    <div class="right">
-        <span class="say"><h1>Say Hello</h1></span>
-        <div class="input-container">
-            <input type="text" required=""/>
-            <label>Name</label>		
-        </div>
-        <div class="input-container">
-            <input type="text" required=""/>
-            <label>Email</label>		
-        </div>
-        <div class="input-container Mm">
-            <input type="text" required=""/>
-            <label>Message</label>		
-        </div>
-    </div>
-<span class="price">
-    <h2>$25/hr</h2>
-    <h1 style="color:white ;">PRICING</h1>
-</span>
-    <img src="Gmail_icon_(2020).svg" id="GM" alt="">
-    <a href="mailto:hello@nikhilbhatia.in" target="_blank" id="mail">hello@nikhilbhatia.in</a>
-    <a href="tel:+919429149829" target="_blank" id="num" >+91 942-914-9829</a>
-    <img src="whatsapp-icon-seeklogo.com.svg" id="Wp" alt="">
-    <img src="questioms.jpg" alt="" class="ques">
+  
+      <img src = "Services.png" class = "img-fluid" alt = "Online Training">
+
+    <div class="container contact-form">
+      <div class="contact-image">
+          <img src="pngwing.com.png" alt="rocket_contact"/>
+          
+      </div>
+      <form method="post" class="pp my-2">
+          <h3>Interested in working together? We should queue up a chat.</h3>
+          <h4> I’ll buy the coffee.</h4>
+         <div class="row ">
+              <div class="col-md-6">
+                  <div class="form-group mt-2">
+                      <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                  </div>
+                  <div class="form-group mt-2">
+                      <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                  </div>
+                  <div class="form-group mt-2">
+                      <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                  </div>
+                 
+                  <div class="form-group mt-3">
+                    <button class="btn btn mt-2"  type="submit"><span> Send Message</span> </button>
+                  </div>
+              </div>
+            
+                <div class="col-md-6">
+
+                    <div class="form-group ">
+                      <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                  </div>
+                    
+                </div>
+      </form>
+    
 </div>
+<div style="background: #131416;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+  <table cellpadding="0" cellspacing="0" height="100%" width="100%"  style="border-collapse: collapse!important;border-spacing: 0!important;margin: 0 auto;table-layout: fixed!important;background: url('https://cdn.shopify.com/s/files/1/0013/7332/files/trans_email_footer.jpg?317488461733349908') no-repeat bottom center/100% auto;max-width: 1000px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;   ">
+    <tbody>
+      <tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+        <td valign="top" style="background: url('header.webp') no-repeat top center/100% auto;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;   ">
+          <center style="width: 100%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+           
+            <div style="max-width: 680px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+
+              <!-- Email Letterhead : END -->
+
+
+              <!-- Email Header : BEGIN -->
+              <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 680px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;   border-spacing: 0 !important;border-collapse: collapse !important;table-layout: fixed !important;margin: 0 auto !important;">
+
+                <tbody>
+                  <tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <td id="heading" class="heading-text" style="padding: 25px 20px 8px 20px;text-align: center;color: #b78846;font-family: 'minion-pro', 'Minion Pro', Georgia, serif;text-transform: uppercase;font-weight: 500;font-size: 42px;line-height: 46px;letter-spacing: 4px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;   ">
+                      BUILD YOUR NEXT BIG
+                    </td>
+                  </tr>
+                  <tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <td id="subheading" style="padding: 0 20px 10px 20px;text-align: center;color: #FFFFFF;text-transform: uppercase;font-family: 'brandon-grotesque', 'Brandon Grotesque', helvetica, arial, sans-serif;font-size: 18px;font-weight: 700;line-height: 24px;letter-spacing: 4px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;   ">
+                     Cant wait to Build ??
+                    </td>
+                  </tr>
+
+                  <tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <td style="padding: 0 0 10px 0;text-align: center;color: #b78846;text-transform: uppercase;font-family: arial, helvetica, sans-serif;font-size: 12px;font-weight: 700;line-height: 12px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;   ">
+                      ♦ ♦ ♦
+                    </td>
+                  </tr>
+
+                </tbody>
+              </table>
+              <!-- Email Header : END -->
+
+
+              <!-- Email Body : BEGIN -->
+              <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 680px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;   border-spacing: 0 !important;border-collapse: collapse !important;table-layout: fixed !important;margin: 0 auto !important;">
+                <tbody>
+                  <tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <td style="font-family: 'brandon-grotesque', 'Brandon Grotesque', helvetica, arial, sans-serif;color: #FFFFFF;font-size: 18px;line-height: 22px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;   ">
+
+
+                      <!-- Button : Begin -->
+                      <table cellspacing="0" cellpadding="0" border="0" align="center" style="padding-top: 30px;margin: auto;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;   border-spacing: 0 !important;border-collapse: collapse !important;">
+                        <tbody>
+                          <tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <td style="background: #b78846;text-align: center;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;transition: all 100ms ease-in;   " class="button-td">
+                              <a href="#" style="background: #b78846;border: 15px solid #b78846;padding: 0 10px;color: #ffffff;font-family: 'brandon-grotesque', 'Brandon Grotesque', helvetica, arial, sans-serif;text-transform: uppercase;letter-spacing: 2px;font-size: 16px;line-height: 1.1;text-align: center;text-decoration: none;display: block;font-weight: bold;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;transition: all 100ms ease-in;"
+                                class="button-a" target="_blank">
+                              Yes, sign me up!
+                              
+                              </a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <!-- Button : END -->
+
+
+                      <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="max-width: 660px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;   border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;">
+                        <tbody>
+                          <tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <td align="center" valign="top" style="font-size: 0;padding: 10px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;   ">
+                              <p style="font-family: 'brandon-grotesque', 'Brandon Grotesque', helvetica, arial, sans-serif;color: #FFFFFF;font-size: 20px;line-height: 32px;margin: 10px 0;display: block;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Click the confirmation link above to Hire me @ <strong style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%; color: #f3b859;">$25/Hr!</strong> 
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sit nam aperiam quidem earum explicabo dicta, unde non ea perspiciatis labore vel neque tempore eos molestiae cupiditate provident hic nisi!</p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <!-- Email Body : END -->
+
+
+              <!-- Email Footer : BEGIN -->
+              <table cellspacing="0" cellpadding="0"  align="center" width="100%" style="max-width: 680px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;   border-spacing: 0 !important;border-collapse: collapse !important;table-layout: fixed !important;margin: 0 auto !important;">
+                <tbody>
+                  <tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <td style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;   ">
+                      <a style="border: none;display: block;padding: 0;width: 112px;margin: 50px auto 0px auto;text-align: center;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" href="#" target="_blank">
+                        <img src="NB.jpg" width="80" style="width: 80px;height: auto;border: none;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;-ms-interpolation-mode: bicubic;" border="0" alt="theory11">
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <td style="padding: 20px 20px 40px 20px;width: 100%;font-size: 16px;font-family: 'brandon-grotesque', 'Brandon Grotesque', helvetica, arial, sans-serif;line-height: 20px;text-align: center;color: #FFFFFF;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;   ">
+                      <div style="max-width: 320px;margin: 0 auto;text-align: center;display: inline-block;position: relative;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        If you have any questions about this email, contact <a href="#" style="margin: 0;padding: 0;color: #b78846;text-decoration: none;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank">hello@nikhilbhatia.in</a>                          or Drop a message on <a href="#" style="margin: 0;padding: 0;color: #b78846;text-decoration: none;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank">+91 942-914-9829</a>.
+                      </div>
+                    </td>
+                  </tr>
+
+                </tbody>
+              </table>
+        
+            </div>
+          </center>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
 </body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </html>
